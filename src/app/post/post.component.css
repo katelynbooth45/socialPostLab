@@ -1,0 +1,32 @@
+ol {
+    padding: 0;
+    list-style-type: none;
+}
+
+.post-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 0 8%;
+    border-bottom: 1px #F3F1F7 solid;
+}
+
+.headline {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px 0 5px 0;
+}
+
+.description {
+    margin: 0;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+}
+
+.delete-button:active {
+    color: red;
+}

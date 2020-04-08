@@ -1,0 +1,37 @@
+.main-container {
+    width: 50%;
+    margin: auto;
+}
+
+.post-form-container {
+    background-color:#B1DDEA;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+label {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.add-button {
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}

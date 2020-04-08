@@ -1,0 +1,15 @@
+<section>
+    <div class="main-post-container">
+        <ol>
+            <li *ngFor="let item of post; index as i">
+              <div class="post-container">
+                  <div class="inner-post">
+                    <p class="headline" [ngClass]="">{{item.title}}</p>
+                    <p class="description" [ngClass]="">{{item.thought}}</p>
+                  </div>
+                <button ng-click="deletePost()" class="delete-button"><i class="fa fa-trash"></i></button>
+              </div>
+            </li>
+          </ol>
+    </div>
+</section>

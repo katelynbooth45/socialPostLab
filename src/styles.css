@@ -1,0 +1,15 @@
+body {
+    background-color: #F3F1F7;
+}
+
+.header {
+    font-family: 'Homemade Apple', cursive;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 169, 244);
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

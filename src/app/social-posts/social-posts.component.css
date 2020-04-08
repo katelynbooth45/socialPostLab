@@ -1,0 +1,22 @@
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+.post-container {
+    background-color: #ffffff;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+}
+
+.add-button {
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
